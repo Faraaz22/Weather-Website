@@ -1,0 +1,68 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+.Container {
+    font-size: 24px;
+    margin: 100px;
+    margin-left: 450px;
+    width: 350px;
+    height: 200px;
+}
+
+.col1 {
+    position: fixed;
+    left: 39%;
+    top: 52%;
+    margin-top: 40px;
+}
+
+.col2 {
+    position: fixed;
+    left: 50%;
+    top: 52%;
+    margin-top: 40px;
+
+}
+
+#searchBox {
+    position: relative;
+    right: 37%;
+    height: 30px;
+    width: 600px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: rgba(0, 0, 0, 0.731);
+    color: white;
+    
+}
+
+#searchBtn {
+    position: relative;
+    left: 350px;
+    bottom: 35px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: transparent;
+    width: 70px;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+    cursor: pointer;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 200;
+}
+body{
+    background-image: url('wallpaper3.png');
+    background-size: cover;
+}

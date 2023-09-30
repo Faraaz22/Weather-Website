@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather App</title>
+    <link rel="icon" type="image" href="weathericon.png">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="script.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- rain -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- snow -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- thunderstorm -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- clear day -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- light rain -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Mist -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body onload="getLocation()" id="weather">
+    <div class="img">
+        <div class="Container">
+            <div class="search">
+                <input type="text" id="searchBox" placeholder="Enter City Name">
+                <button id="searchBtn">Search</button>
+            </div>
+            <div class="details">
+                <!-- weather icon -->
+                <span id="icon" class="material-symbols-outlined" style="font-size: 70px;">
+                    cloud
+                </span>
+                <h1 class="location">Location</h1>
+                <h2 class="temprature">Temprature</h2>
+            </div>
+            <div class="details" style="font-weight: 200;">
+                <div class="col1">
+                    <span class="material-symbols-outlined" style="font-size: 40px; font-weight: 200;">
+                        humidity_percentage
+                    </span>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+                <div class="col2">
+                    <span class="material-symbols-outlined" style="font-size: 40px; font-weight: 200;">
+                        airwave
+                    </span>
+                    <p class="wind">50km/hr</p>
+                    <p>Wind Speed</p>
+                    </div>
+                </div>
+                <div class="factBox">
+                    <!-- kuch extra -->
+                </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
